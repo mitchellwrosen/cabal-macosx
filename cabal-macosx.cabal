@@ -24,15 +24,15 @@ Author:                 Eric Kow <eric.kow@gmail.com> & Andy Gimblett <haskell@g
 Maintainer:             Andy Gimblett <haskell@gimbo.org.uk>
 Homepage:               http://github.com/gimbo/cabal-macosx
 Build-Type:             Simple
-Cabal-Version:          >=1.6
+Cabal-Version:          >=1.8
 
 Source-Repository head
     Type:         git
     Location:     http://github.com/gimbo/cabal-macosx
 
 Library
-  Build-Depends:   base >= 4 && < 5, Cabal >= 1.6, directory
-               ,   fgl >= 5.4.2.2 && < 5.5
+  Build-Depends:   base >= 4 && < 5, Cabal >= 1.8, directory
+               ,   fgl >= 5.4.2.2 && < 5.6
                ,   filepath, MissingH, parsec, process
   Exposed-modules: Distribution.MacOSX
   Other-modules:   Distribution.MacOSX.Common,
@@ -44,5 +44,5 @@ Library
 Executable macosx-app
   Main-is:         macosx-app.hs
   Build-Depends:   base >= 4 && < 5, Cabal >= 1.6, directory
-               ,   fgl >= 5.4.2.2 && < 5.5
-               ,   filepath, MissingH, parsec, process
+               ,   fgl >= 5.4.2.2 && < 5.6
+               ,   filepath, MissingH, parsec, process, cabal-macosx

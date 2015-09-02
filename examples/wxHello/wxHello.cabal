@@ -13,7 +13,7 @@ Copyright:              Andy Gimblett <haskell@gimbo.org.uk>
 Author:                 Andy Gimblett <haskell@gimbo.org.uk>
 Maintainer:             Andy Gimblett <haskell@gimbo.org.uk>
 Build-Type:             Custom
-Cabal-Version:          >=1.6
+Cabal-Version:          >=1.8
 
 Executable WxHello
   hs-source-dirs:       src
